@@ -1,3 +1,7 @@
+## Overview
+This is a LLM Question and Answer system. You can ask questions for a specified context. Supports multiple rounds of questioning and answering. Supports Chinese and English. Using the langchain methods to load context documents and split them. Using the torch to embed context. Using the Chroma of langchain to generate and load the vector DB. Using the langchain.memory and the langchain ConversationalRetrievalChain to support multiple rounds of questioning and answering. Using the transformers model from huggingface.
+
+
 ## Getting Started
 1. Put the expected context *.txt files to folder "docs\Context"
 2. Run Vectorization.py, will store the embedding result to a new folder under "docs\chroma", remember it.
